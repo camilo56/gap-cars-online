@@ -1,0 +1,50 @@
+[
+    {
+        "name": "camaro",
+        "urlImage": "https://img.newatlas.com/mazda-vision-coupe-wins-2018-concept-car-of-the-year-7.jpg?auto=format%2Ccompress&dpr=2&fit=max&q=40&w=1000&s=4a84f26f0fc8959b2049d2f3f02c2b2f",
+        "model": "2018",
+        "year": "2018",
+        "mark": "mazda-vision",
+        "price": "500.000"
+    },
+    {
+        "name": "camaro",
+        "urlImage": "https://img.newatlas.com/mazda-vision-coupe-wins-2018-concept-car-of-the-year-7.jpg?auto=format%2Ccompress&dpr=2&fit=max&q=40&w=1000&s=4a84f26f0fc8959b2049d2f3f02c2b2f",
+        "model": "2018",
+        "year": "2018",
+        "mark": "Audi",
+        "price": "500.000"
+    },
+    {
+        "name": "camaro",
+        "urlImage": "https://img.newatlas.com/mazda-vision-coupe-wins-2018-concept-car-of-the-year-7.jpg?auto=format%2Ccompress&dpr=2&fit=max&q=40&w=1000&s=4a84f26f0fc8959b2049d2f3f02c2b2f",
+        "model": "2018",
+        "year": "2018",
+        "mark": "BMW",
+        "price": "500.000"
+    },
+    {
+        "name": "camaro",
+        "urlImage": "https://img.newatlas.com/mazda-vision-coupe-wins-2018-concept-car-of-the-year-7.jpg?auto=format%2Ccompress&dpr=2&fit=max&q=40&w=1000&s=4a84f26f0fc8959b2049d2f3f02c2b2f",
+        "model": "2018",
+        "year": "2018",
+        "mark": "chevrolet",
+        "price": "500.000"
+    },
+    {
+        "name": "camaro",
+        "urlImage": "https://img.newatlas.com/mazda-vision-coupe-wins-2018-concept-car-of-the-year-7.jpg?auto=format%2Ccompress&dpr=2&fit=max&q=40&w=1000&s=4a84f26f0fc8959b2049d2f3f02c2b2f",
+        "model": "2018",
+        "year": "2018",
+        "mark": "ford",
+        "price": "500.000"
+    },
+    {
+        "name": "camaro",
+        "urlImage": "https://img.newatlas.com/mazda-vision-coupe-wins-2018-concept-car-of-the-year-7.jpg?auto=format%2Ccompress&dpr=2&fit=max&q=40&w=1000&s=4a84f26f0fc8959b2049d2f3f02c2b2f",
+        "model": "2018",
+        "year": "2018",
+        "mark": "hyundai",
+        "price": "500.000"
+    }
+]

@@ -1,0 +1,12 @@
+<input type="text" placeholder="Filter by Mark" (keyup)="onKey($event)">
+
+<div class="container">
+    <gap-car *ngFor="let car of data | markPipe: filter" 
+        [name]="car.name"
+        [year]="car.year"
+        [mark]="car.mark"
+        [price]="car.price"
+        [model]="car.model"
+        [urlImage]="car.urlImage">
+    </gap-car>
+</div>
