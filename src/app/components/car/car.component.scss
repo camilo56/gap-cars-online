@@ -3,17 +3,26 @@ section{
     padding: 10px;
     max-width: 300px;
     border-radius: 2px;
-    border: 1px solid #ddd;
+    border: 1px solid #EAF1F7;
 
+    a{
+        text-decoration: none;
+    }
     h2{
         text-align: center;
         margin-bottom: 10px;
         padding-bottom: 4px;
-        border-bottom: 1px solid #ddd;
+        border-bottom: 1px solid #EAF1F7;
     }
 
     img{
         display: block;
         margin: 0 auto;
+    }
+
+    p{
+        .strong{
+            color: #38577C;
+        }
     }
 }

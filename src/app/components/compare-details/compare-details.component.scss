@@ -1,0 +1,22 @@
+section{
+    display: flex;
+    text-align: center;
+    align-items: flex-end;
+    justify-content: center;
+    
+    & > div{
+        margin: 4px;
+    }
+
+    .strong{
+        margin-bottom: 4px;
+        padding-bottom: 4px;
+    }
+
+    p{
+        margin-bottom: 4px;
+        padding-bottom: 4px;
+        border-bottom: 1px solid #ddd;
+    }
+    
+}

@@ -11,6 +11,8 @@ import { MenuComponent } from './components/menu/menu.component';
 import { CarComponent } from './components/car/car.component';
 import { ImageComponent } from './components/image/image.component';
 import { MarkPipe } from './pipe/mark.pipe';
+import { CompareDetailsComponent } from './components/compare-details/compare-details.component';
+import { CarselectComponent } from './components/carselect/carselect.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { MarkPipe } from './pipe/mark.pipe';
     MenuComponent,
     CarComponent,
     ImageComponent,
-    MarkPipe
+    MarkPipe,
+    CompareDetailsComponent,
+    CarselectComponent
   ],
   imports: [
     BrowserModule,

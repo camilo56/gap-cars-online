@@ -1,3 +1,11 @@
-<p>
-  detail works!
-</p>
+<h2>{{data.name}}</h2>
+
+<gap-image [url]="data.urlImage" [maxWidth]="maxWidth"></gap-image>
+
+<p><span class="strong">model: </span>{{data.model}}</p>
+<p><span class="strong">year: </span>{{data.year}}</p>
+<p><span class="strong">mark: </span>{{data.mark}}</p>
+<p><span class="strong">price: </span>{{data.price}}</p>
+<br>
+<h3 class="strong">Summary</h3>
+<p>{{ data.summary}}</p>

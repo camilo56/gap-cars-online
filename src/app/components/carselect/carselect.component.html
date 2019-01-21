@@ -1,0 +1,6 @@
+<select *ngFor="let item of numberSelect; index as position;" [id]="position" (change)="optionSelected($event)">
+    <option value="">-- select ---</option>
+    <ng-container *ngIf="true">
+        <option *ngFor="let car of cars" [value]="car.id">{{car.name}}</option>
+    </ng-container>
+</select>

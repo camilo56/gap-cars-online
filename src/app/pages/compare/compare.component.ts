@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { Car } from 'src/app/interface/car';
 
 @Component({
   selector: 'gap-compare',
@@ -7,9 +9,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CompareComponent implements OnInit {
 
-  constructor() { }
+  cars: Car[] = [];
+  selectedCars: Car[] = [];
+  numberSelect = ["one", "two", "three"];
+  showCompare: boolean = false;
+  allowSubmit: boolean = false;
+
+  constructor(  private route: ActivatedRoute) { }
 
   ngOnInit() {
+    this.route.data.subscribe((info: {data: Car[]}) => this.cars = info.data)
+  }
+
+  onCompareCars(show = true){
+    this.showCompare = show;
+  }
+
+  onAllowSubmit({allow, selectedCars}){    
+    this.allowSubmit = allow;    
+    this.selectedCars = selectedCars;
   }
 
 }

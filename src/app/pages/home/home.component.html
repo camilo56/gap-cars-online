@@ -2,6 +2,7 @@
 
 <div class="container">
     <gap-car *ngFor="let car of data | markPipe: filter" 
+        [id]="car.id"
         [name]="car.name"
         [year]="car.year"
         [mark]="car.mark"

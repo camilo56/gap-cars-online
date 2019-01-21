@@ -1,8 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
+$small: 572px;
+$medium: 828px;
+$large: 1084px;
+$xlarge: 1380px;
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
 h1,h2,h3,h4,p{
     margin: 0px;
 }
 
 .strong{
+    color: #38577C;
     font-weight: 700;
+}
+
+h2{
+    font-size: 16px;
+    color: #38577C;
+    text-align: center;
+}
+
+.mainContainer{
+    padding: 0 10px;
+    margin: 0 auto;
+    display: block;
+    max-width: 1024px;
+}
+
+button{
+    outline: none;
+    color: #38577C;
+    min-height: 30px;
+    background: white;
+    border-radius: 10px / 20px;
+    border: 1px solid #38577C;
+
+    &:hover{
+        color: white;
+        background: #38577C;
+    }
 }

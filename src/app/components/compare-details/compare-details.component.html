@@ -1,0 +1,17 @@
+<section>
+    <div> 
+        <div class="strong">Model:</div>  
+        <div class="strong">Year:</div>  
+        <div class="strong">Mark:</div>  
+        <div class="strong">Price:</div>  
+    </div>
+
+    <div *ngFor="let car of selectedCars">    
+        <h2>{{car.name}}</h2>
+        <gap-image [url]="car.urlImage"></gap-image>
+        <p>{{car.model}}</p>
+        <p>{{car.year}}</p>
+        <p>{{car.mark}}</p>
+        <p>{{car.price}}</p>
+    </div>
+</section>

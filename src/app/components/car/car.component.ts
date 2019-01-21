@@ -7,17 +7,17 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class CarComponent implements OnInit {
 
+  @Input("id") id: string;
   @Input("name") name: string;
-  @Input("urlImage") urlImage: string;
-  @Input("model") model: string;
-  @Input("year") year: string;
   @Input("mark") mark: string;
+  @Input("year") year: string;
   @Input("price") price: string;
+  @Input("model") model: string;
+  @Input("urlImage") urlImage: string;
 
   constructor() { }
 
   ngOnInit() {
-    console.log(this.name, this.urlImage)
   }
 
 }

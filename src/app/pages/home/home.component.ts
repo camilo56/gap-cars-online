@@ -19,9 +19,8 @@ export class HomeComponent implements OnInit {
     this.route.data.subscribe((info: {data: Car[]}) =>this.data = info.data)
   }
 
-  onKey(event: KeyboardEvent) { // with type info
+  onKey(event: KeyboardEvent) {
     this.filter = (<HTMLInputElement>event.target).value;
-    console.log(this.filter);
   }
 
 }

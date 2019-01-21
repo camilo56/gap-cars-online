@@ -1,6 +1,6 @@
 <section>
-    <h2 class="strong">{{name}}</h2>
-    <gap-image [url]="urlImage"></gap-image>
+    <a class="" routerLinkActive="active" [routerLink]="['/detail', id]"><h2 class="strong">{{name}}</h2></a>
+    <a class="" routerLinkActive="active" [routerLink]="['/detail', id]"><gap-image [url]="urlImage"></gap-image></a>
     <p><span class="strong">Modelo</span>: {{model}}</p>
     <p><span class="strong">Año</span>: {{year}}</p>
     <p><span class="strong">Marca</span>: {{mark}}</p>

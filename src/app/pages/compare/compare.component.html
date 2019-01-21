@@ -1,3 +1,11 @@
-<p>
-  compare works!
-</p>
+
+<h2>Compare Cars</h2>
+
+<div class="contOptions">
+  <gap-carselect [numberSelect]="numberSelect" [cars]="cars" (onAllowSubmit)="onAllowSubmit($event)" (onCompareCars)="onCompareCars($event)"></gap-carselect>
+  
+  <button (click)="onCompareCars()" *ngIf="allowSubmit">Compare</button>
+</div>
+
+<br>
+<gap-compare-details *ngIf="showCompare" [selectedCars]="selectedCars"></gap-compare-details>
